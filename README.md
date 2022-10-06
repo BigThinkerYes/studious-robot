@@ -6,9 +6,9 @@ PyCharm. The intelligent Python IDE with unique code assistance and analysis, fo
 
 [+] Import and load files/libs before running project. <br>
 [+] /activate virtual <br>
-[+] import nltk
-[+] nltk.download('punkt')
-[+] >>> quit()
+[+] import nltk <br>
+[+] nltk.download('punkt') <br>
+[+] >>> quit() <br>
 
-[+] run training file
-[+] run chat file
+[+] run training file <br>
+[+] run chat file <br>
