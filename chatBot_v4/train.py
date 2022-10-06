@@ -193,4 +193,3 @@ torch.save(data, FILE)
 # FILE saves in the same folder
 print(f'training complete. file saved to {FILE}')
 
-# note: you can delete data.pth and run train.py again to restore it
