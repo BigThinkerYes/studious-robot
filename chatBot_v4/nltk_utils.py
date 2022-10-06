@@ -73,7 +73,7 @@ def bag_of_words(tokenized_sentence, all_words):
 
 # part of step one
 # used to test if code works , # nltk.download('punkt') is used when no data avaliable
-# a = "How long does shipping take?"
+# a = "How long?"
 # print(a)
 # a = tokenize(a)
 # print(a)
