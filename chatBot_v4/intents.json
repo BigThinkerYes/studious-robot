@@ -1,0 +1,121 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey.",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "Have a nice day",
+        "Remember to enjoy the day."
+      ]
+    },
+    {
+      "tag": "who",
+      "patterns": ["Who are you"],
+      "responses": [
+        "studious_robot"
+      ]
+    },
+    {
+      "tag": "what",
+      "patterns": ["What are you", "What is this?","What is this project about?"],
+      "responses": [
+        "studious_robot",  "data analysis ","statistical and/or logical techniques to describe and evaluate data."
+      ]
+    },
+    {
+      "tag": "why",
+      "patterns": ["Why use pycharm", "Why did you not use jupyter labs?"],
+      "responses": [
+        "PyCharm's auto-complete feature really facilitates faster development and workflow, and it's something that Jupyter does not do.",
+        "Jupyter is more for research-based coding and visualizing."
+      ]
+    },
+     {
+      "tag": "name",
+      "patterns": ["What is your name?"],
+      "responses": [
+        "studious_robot"
+      ]
+    },
+    {
+      "tag": "job",
+      "patterns": ["What do you do?"],
+      "responses": [
+         "data analysis "," I apply statistical and/or logical techniques to describe and evaluate data."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!","Good Job"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What type of visualization do you have?"
+      ],
+      "responses": [
+        "We will be working with finance information today."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We currently do not take any listed."
+      ]
+    },
+    {
+      "tag": "scrape",
+      "patterns": [
+        "How can you scrape data?"
+      ],
+      "responses": [
+        "Find the URL that you want to scrape and Run the code to extract the data"
+      ]
+    },
+    {
+      "tag": "how",
+      "patterns": [
+        "How scrape data related to data analysis?", "how is this related"
+      ],
+      "responses": [
+        "Web scraping can be used to collect data about products for sale, user posts, images, and anything else."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Sorry not in the mood.",
+        "Are there any other questions?"
+      ]
+    }
+  ]
+}
