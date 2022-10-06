@@ -6,7 +6,6 @@ PyCharm. The intelligent Python IDE with unique code assistance and analysis, fo
 
 - load files and libs before running project.
 - /activate virtual
-- >>> quit()
 - run training file
 - run chat file
 - import  and load files
