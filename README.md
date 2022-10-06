@@ -6,11 +6,12 @@ PyCharm. The intelligent Python IDE with unique code assistance and analysis, fo
 
 - load files and libs before running project.
 - /activate virtual
-- python -m pip install --upgrade pip
-- pip install Flask torch torchvision nltk
-- python
-- import nltk
-- nltk.download('punkt')
 - >>> quit()
 - run training file
 - run chat file
+- import  and load files
+- create data
+- run app
+- import nltk
+- nltk.download('punkt')
+- >>> quit()
