@@ -14,7 +14,8 @@
         "Hey.",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "It's all goo"
       ]
     },
     {
@@ -30,6 +31,27 @@
       "patterns": ["Who are you"],
       "responses": [
         "studious_robot"
+      ]
+    },
+    {
+      "tag": "slang",
+      "patterns": ["What's up?", "What's good?","How you felling?", "Whats up", "Whats good"],
+      "responses": [
+        "We good over here.",  "How you feeling? because we shooting pass the stars over here. ","We about to turn up to the max..."
+      ]
+    },
+    {
+      "tag": "really",
+      "patterns": ["really"],
+      "responses": [
+        "Why not?"
+      ]
+    },
+    {
+      "tag": "example",
+      "patterns": ["Give me an example", "give me a example","show a example", "can you show me an example", "where is the example?"],
+      "responses": [
+        "We good over here.",  "How you feeling? because we shooting pass the stars over here. ","We about to turn up to the max..."
       ]
     },
     {
@@ -97,12 +119,30 @@
       ]
     },
     {
+      "tag": "view",
+      "patterns": [
+        "How can you view data?"," What have you learned?", "Where can I find more information?"
+      ],
+      "responses": [
+        ["<a href='https://www.google.com'>google</a>"]
+      ]
+    },
+    {
       "tag": "how",
       "patterns": [
         "How scrape data related to data analysis?", "how is this related"
       ],
       "responses": [
         "Web scraping can be used to collect data about products for sale, user posts, images, and anything else."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "I am looking for data analysis project?", "I am looking for "
+      ],
+      "responses": [
+        "Not sure if I can respond to that at this time."
       ]
     },
     {
