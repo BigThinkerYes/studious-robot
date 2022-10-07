@@ -192,3 +192,7 @@ torch.save(data, FILE)
 
 # FILE saves in the same folder
 print(f'training complete. file saved to {FILE}')
+<<<<<<< HEAD
+=======
+
+>>>>>>> c34244216f65dfacf7856bb512d9c14f4b6b5c38
