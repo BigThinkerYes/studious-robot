@@ -12,15 +12,14 @@
       ],
       "responses": [
         "Hey.",
-        "Hello, thanks for visiting",
+        "Hello, thanks for visiting, how can we help you?",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?",
-        "It's all goo"
+        "Hi there, how can I help?"
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": ["Bye", "See you later", "Goodbye", "good bye"],
       "responses": [
         "Have a nice day",
         "Remember to enjoy the day."
@@ -91,10 +90,19 @@
     {
       "tag": "items",
       "patterns": [
-        "What type of visualization do you have?"
+        "What type of visualization do you have?", "What are you doing?"
       ],
       "responses": [
         "We will be working with finance information today."
+      ]
+    },
+    {
+      "tag": "button",
+      "patterns": [
+        "Can you show me a chart?"
+      ],
+      "responses": [
+        "<a  class='buttonTest' href='#'>google</a>"
       ]
     },
     {

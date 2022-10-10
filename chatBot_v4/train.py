@@ -11,6 +11,12 @@ from nltk_utils import bag_of_words, tokenize, stem
 # import model
 from model import NeuralNet
 
+
+
+
+
+
+
 with open('intents.json', 'r') as f:
     intents = json.load(f)
     # step 1 print to view intents.json file in terminal
@@ -192,7 +198,5 @@ torch.save(data, FILE)
 
 # FILE saves in the same folder
 print(f'training complete. file saved to {FILE}')
-<<<<<<< HEAD
-=======
 
->>>>>>> c34244216f65dfacf7856bb512d9c14f4b6b5c38
+# note: you can delete data.pth and run train.py again to restore it

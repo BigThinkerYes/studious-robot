@@ -1,4 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap");
 * {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #777;
+  padding:3rem;
+}
+.header {
+  height: 95vh;
+  background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), #45504f);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.logo {
+}
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* center btns */
+  text-align: center;
+}
+.heading-primary {
+  color: #fff;
+  text-transform: uppercase;
+  /* remove unwanted movements */
+  backface-visibility: hidden;
+  /* move btns down */
+  margin-bottom: 15px;
+}
+
+.heading-primary-main {
+  display: block;
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 10px;
+  /* animate label */
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+  /* animation-delay: 1s; */
+  animation-timing-function: ease-out;
+  /* number of times */
+  /* animation-iteration-count: 3; */
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 17.4px;
+  /* animate label */
+  animation: moveInRight 3s ease-out;
+}
+/* transitions */
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+/*  */
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+/* button style */
+.btn_:link,
+.btn_:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+}
+.btn_:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btn_:active {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-white {
+  background-color: #fff;
+  color: #777;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.bt1 {
+  /* animate label */
+  animation: moveInRight 3s ease-out;
+}
+.bt2 {
+  /* animate label */
+  animation: moveInLeft 3s ease-out;
+}
+/** {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -22,7 +148,7 @@ html {
   --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
   --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
   --primary: #1b9862;
-}
+}*/
 
 /* CHATBOX
 =============== */
@@ -200,6 +326,14 @@ html {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.buttonTest{
+ padding: 10px;
+  background: blue;
+  border: none;
+  outline: none;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
