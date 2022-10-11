@@ -351,3 +351,129 @@ html {
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
+
+/*popup*/
+/*=====*/
+/* popup */
+/**/
+/* absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+/* close */
+.popup_close,
+.popup_close:link,
+.popup_close:visited {
+  color: #777;
+  position: absolute;
+  top: 2.5rem;
+  right: 2.5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s;
+  border: 1px solid #777;
+  padding: 3px 6px;
+}
+.popup_close:hover {
+  color: rgb(8, 86, 86);
+}
+/* -- */
+.popup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  /* hide popup */
+  opacity: 0;
+  visibility: hidden;
+  /* speed of box load */
+  transition: all 0.2s;
+}
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+}
+.popup_content {
+  /* center */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* -- */
+  width: 75%;
+  /* height: 50rem; */
+  height: auto;
+  background-color: #fff;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  /* table */
+  display: table;
+  overflow: hidden;
+}
+.popup:target .popup_content {
+}
+.popup_left {
+  width: 33.333333%;
+  float: left;
+  /* table */
+  display: table-cell;
+  vertical-align: middle;
+}
+.popup_right {
+  width: 66.6666667%;
+  float: left;
+  /* table */
+  display: table-cell;
+  vertical-align: middle;
+  padding: 3rem 5rem;
+}
+.popup_img {
+  display: block;
+  width: 100%;
+}
+.popup_text {
+  font-size: 1.4rem;
+  margin-bottom: 4rem;
+  /* col */
+  -moz-column-count: 2;
+  -moz-column-gap: 4rem;
+  -moz-column-rule: 1px solid #777;
+
+  -ms-column-count: 2;
+  -ms-column-gap: 4rem;
+  -ms-column-rule: 1px solid #777;
+
+  -webkit-column-count: 2;
+  -webkit-column-gap: 4rem;
+  -webkit-column-rule: 1px solid #777;
+
+  column-count: 2;
+  column-gap: 4rem;
+  column-rule: 1px solid #777;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.u-center-text {
+  text-align: center;
+}
+.u-margin-bottom-medium {
+  margin-bottom: 1rem;
+}
+.u-margin-bottom-big {
+  margin-bottom: 8rem;
+}
+.u-margin-top-big {
+  margin-top: 8rem;
+}
+.u-margin-top-huge {
+  margin-top: 10rem;
+}
