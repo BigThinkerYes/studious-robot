@@ -3,6 +3,7 @@ class Chatbox{
         this.args = {
 //        type of buttons wanted
             openButton: document.querySelector('.chatbox__button'),
+            openButton2: document.querySelector('.chatbox__button_1'),
             chatBox: document.querySelector('.chatbox__support'),
             sendButton: document.querySelector('.send__button')
         }
@@ -12,8 +13,9 @@ class Chatbox{
     }
 //    display messages
         display(){
-            const {openButton, chatBox, sendButton} = this.args;
+            const {openButton, openButton2, chatBox, sendButton} = this.args;
             openButton.addEventListener('click', () => this.toggleState(chatBox))
+            openButton2.addEventListener('click', () => this.toggleState(chatBox))
             sendButton.addEventListener('click', () => this.onSendButton(chatBox))
 
             const node = chatBox.querySelector('input');
