@@ -28,3 +28,8 @@ PyCharm. The intelligent Python IDE with unique code assistance and analysis, fo
 [+] run training file in terminal  ---- python train.py [+]--this loads the intents file--[+] <br>
 [+] run chat.py file to view chat in the terminal or run in browser <br>
 ## Stage One Above ^
+
+[+] deployment production server<br>
+[=] pip install gunicorn<br>
+[+] create new file<br>
+[+] wsgi.py
