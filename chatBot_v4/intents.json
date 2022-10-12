@@ -34,7 +34,7 @@
     },
     {
       "tag": "slang",
-      "patterns": ["What's up?", "What's good?","How you felling?", "Whats up", "Whats good"],
+      "patterns": ["What's up?", "What's good?","How you felling?", "Whats up", "Whats good", "Whats going on?", "What's going on?"],
       "responses": [
         "We good over here.",  "How you feeling? because we shooting pass the stars over here. ","We about to turn up to the max..."
       ]
