@@ -7,7 +7,7 @@ PyCharm. The intelligent Python IDE with unique code assistance and analysis, fo
 <br>
 ##step one:<br>
 [+] clone<br>
-[+] change directory into file studious_robot<br>
+[+] change directory into file studious-robot<br>
 [+] change directory into chatBot_v4<br>
 [+] create virtural environment --------------(windows computer) python -m venv studious_robot<br>
 [+] /activate virtual <br> ------------------ source ./studious_robot/Scripts/activate<br>
