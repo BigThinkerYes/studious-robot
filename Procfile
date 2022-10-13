@@ -1,0 +1,1 @@
+web: gunicorn wsgi:chatBot_v4
